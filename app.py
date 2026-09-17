@@ -133,7 +133,7 @@ if st.button(
         "credit_score": [credit_score],
         "existing_emi": [existing_emi],
         "net_worth": [net_worth],
-        "credit_utilization": [credit_utilization],
+        "credit_utilization": [credit_utilization/100],
         "dpd_30_count": [dpd_30_count],
         "loan_amount": [loan_amount]
     })
